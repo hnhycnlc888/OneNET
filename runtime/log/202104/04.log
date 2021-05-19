@@ -1,0 +1,584 @@
+---------------------------------------------------------------
+[ 2021-04-04T11:36:04+08:00 ] 101.132.37.16 GET onenet.zhinengyingjian.work/
+[运行时间：0.018635s] [吞吐率：53.66req/s] [内存消耗：2,431.66kb] [文件加载：44]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000234s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-04T11:36:04+08:00 ] 101.132.37.16 GET onenet.zhinengyingjian.work/admin.html
+[运行时间：0.018627s] [吞吐率：53.69req/s] [内存消耗：2,561.92kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-04T11:36:04+08:00 ] 101.132.37.16 GET onenet.zhinengyingjian.work/admin/login.html
+[运行时间：0.026603s] [吞吐率：37.59req/s] [内存消耗：3,593.52kb] [文件加载：52]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000231s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000288s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-04T21:47:20+08:00 ] 47.101.202.143 GET onenet.zhinengyingjian.work/
+[运行时间：0.018850s] [吞吐率：53.05req/s] [内存消耗：2,431.62kb] [文件加载：44]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000256s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-04T21:47:20+08:00 ] 47.101.202.143 GET onenet.zhinengyingjian.work/admin.html
+[运行时间：0.019476s] [吞吐率：51.34req/s] [内存消耗：2,561.72kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-04T21:47:20+08:00 ] 47.101.202.143 GET onenet.zhinengyingjian.work/admin/login.html
+[运行时间：0.027364s] [吞吐率：36.54req/s] [内存消耗：3,593.20kb] [文件加载：52]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000259s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000284s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-04T22:15:08+08:00 ] 171.13.14.43 GET onenet.zhinengyingjian.work/
+[运行时间：0.018815s] [吞吐率：53.15req/s] [内存消耗：2,433.71kb] [文件加载：44]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000244s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-04T22:15:08+08:00 ] 171.13.14.43 GET onenet.zhinengyingjian.work/admin.html
+[运行时间：0.019709s] [吞吐率：50.74req/s] [内存消耗：2,563.91kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-04T22:15:09+08:00 ] 171.13.14.43 GET onenet.zhinengyingjian.work/admin/login.html
+[运行时间：0.027518s] [吞吐率：36.34req/s] [内存消耗：3,595.40kb] [文件加载：52]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US',
+  'cookie' => 's79ee3df2=e2odm780227hs318nsmr0msnu5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000255s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000287s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-04T22:15:20+08:00 ] 171.13.14.59 GET onenet.zhinengyingjian.work/
+[运行时间：0.018769s] [吞吐率：53.28req/s] [内存消耗：2,433.32kb] [文件加载：44]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3765.0 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-US',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000254s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-04T22:15:20+08:00 ] 171.13.14.59 GET onenet.zhinengyingjian.work/admin.html
+[运行时间：0.020095s] [吞吐率：49.76req/s] [内存消耗：2,563.43kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3765.0 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-US',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-04T22:15:20+08:00 ] 171.13.14.59 GET onenet.zhinengyingjian.work/admin/login.html
+[运行时间：0.027447s] [吞吐率：36.43req/s] [内存消耗：3,594.57kb] [文件加载：52]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3765.0 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-US',
+  'cookie' => 's79ee3df2=vsv6g55ubotp51ql3rco26skr0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000248s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000304s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-04T23:41:43+08:00 ] 47.102.140.201 GET onenet.zhinengyingjian.work/
+[运行时间：0.018757s] [吞吐率：53.31req/s] [内存消耗：2,431.35kb] [文件加载：44]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000247s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-04T23:41:43+08:00 ] 47.102.140.201 GET onenet.zhinengyingjian.work/admin.html
+[运行时间：0.018518s] [吞吐率：54.00req/s] [内存消耗：2,561.66kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-04T23:41:43+08:00 ] 47.102.140.201 GET onenet.zhinengyingjian.work/admin/login.html
+[运行时间：0.027752s] [吞吐率：36.03req/s] [内存消耗：3,593.18kb] [文件加载：52]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000247s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000312s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-04T23:52:44+08:00 ] 47.103.4.164 GET onenet.zhinengyingjian.work/
+[运行时间：0.017806s] [吞吐率：56.16req/s] [内存消耗：2,431.45kb] [文件加载：44]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000231s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-04T23:52:45+08:00 ] 47.103.4.164 GET onenet.zhinengyingjian.work/admin.html
+[运行时间：0.018912s] [吞吐率：52.88req/s] [内存消耗：2,561.63kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-04T23:52:45+08:00 ] 47.103.4.164 GET onenet.zhinengyingjian.work/admin/login.html
+[运行时间：0.026913s] [吞吐率：37.16req/s] [内存消耗：3,592.89kb] [文件加载：52]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000244s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000290s ]
+[ info ] [ LOG ] INIT File

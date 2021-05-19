@@ -1,0 +1,125 @@
+---------------------------------------------------------------
+[ 2021-03-11T10:17:40+08:00 ] 47.101.189.46 GET onenet.zhinengyingjian.work/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000536s ] mysql:host=127.0.0.1;port=3306;dbname=onenet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000356s ]
+---------------------------------------------------------------
+[ 2021-03-11T17:05:46+08:00 ] 36.99.136.140 GET onenet.zhinengyingjian.work/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000511s ] mysql:host=127.0.0.1;port=3306;dbname=onenet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000367s ]
+---------------------------------------------------------------
+[ 2021-03-11T20:12:15+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000523s ] mysql:host=127.0.0.1;port=3306;dbname=onenet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000762s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000358s ]
+---------------------------------------------------------------
+[ 2021-03-11T20:12:22+08:00 ] 120.237.147.91 POST onenet.zhinengyingjian.work/admin/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000483s ] mysql:host=127.0.0.1;port=3306;dbname=onenet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.000926s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000433s ]
+[ sql ] [ SQL ] UPDATE `system_user`  SET `login_at`='2021-03-11 20:12:22',`login_num`=20714  WHERE  `id` = 10000 [ RunTime:0.008934s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (10000)  AND `status` = 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth_node` [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SELECT `node` FROM `system_auth_node` WHERE  `auth` IN (10000) [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_log` [ RunTime:0.000574s ]
+[ sql ] [ SQL ] INSERT INTO `system_log` (`ip` , `node` , `username` , `action` , `content`) VALUES ('120.237.147.91' , 'admin/login/index' , 'admin' , '系统管理' , '用户登录系统成功') [ RunTime:0.008473s ]
+---------------------------------------------------------------
+[ 2021-03-11T20:12:23+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000477s ] mysql:host=127.0.0.1;port=3306;dbname=onenet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.000724s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (10000)  AND `status` = 1 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth_node` [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT `node` FROM `system_auth_node` WHERE  `auth` IN (10000) [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2021-03-11T20:12:23+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/admin/onenetmsg/index.html?spm=m-92-94
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000511s ] mysql:host=127.0.0.1;port=3306;dbname=onenet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `onenet_msg` [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `onenet_msg` LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT * FROM `onenet_msg` ORDER BY `id` DESC LIMIT 0,15 [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000289s ]
+---------------------------------------------------------------
+[ 2021-03-11T20:12:33+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/admin/onenetdevice/index.html?spm=m-92-96
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000520s ] mysql:host=127.0.0.1;port=3306;dbname=onenet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000346s ]
+---------------------------------------------------------------
+[ 2021-03-11T20:12:35+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/admin/onenetcmdlog/index.html?spm=m-92-97
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000527s ] mysql:host=127.0.0.1;port=3306;dbname=onenet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `onenet_cmd_log` [ RunTime:0.000873s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `onenet_cmd_log` LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `onenet_cmd_log` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000309s ]
+---------------------------------------------------------------
+[ 2021-03-11T20:12:39+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/admin/onenetdevice/index.html?spm=m-92-96
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000550s ] mysql:host=127.0.0.1;port=3306;dbname=onenet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000359s ]
+---------------------------------------------------------------
+[ 2021-03-11T20:12:40+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/admin/onenetmsg/index.html?spm=m-92-94
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000524s ] mysql:host=127.0.0.1;port=3306;dbname=onenet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `onenet_msg` [ RunTime:0.000772s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `onenet_msg` LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT * FROM `onenet_msg` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000289s ]
+---------------------------------------------------------------
+[ 2021-03-11T20:12:42+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/admin/user/index.html?spm=m-2-29
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000575s ] mysql:host=127.0.0.1;port=3306;dbname=onenet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 0,20 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000281s ]
+---------------------------------------------------------------
+[ 2021-03-11T20:13:02+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/admin/onenetmsg/index.html?spm=m-92-94
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000533s ] mysql:host=127.0.0.1;port=3306;dbname=onenet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `onenet_msg` [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `onenet_msg` LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT * FROM `onenet_msg` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000310s ]
+---------------------------------------------------------------
+[ 2021-03-11T20:13:05+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/admin/user/index.html?spm=m-2-29
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000571s ] mysql:host=127.0.0.1;port=3306;dbname=onenet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 0,20 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000308s ]
+---------------------------------------------------------------
+[ 2021-03-11T20:13:06+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/admin/onenetmsg/index.html?spm=m-92-94
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000535s ] mysql:host=127.0.0.1;port=3306;dbname=onenet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `onenet_msg` [ RunTime:0.000784s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `onenet_msg` LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT * FROM `onenet_msg` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000297s ]
+---------------------------------------------------------------
+[ 2021-03-11T20:13:07+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/admin/user/index.html?spm=m-2-29
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000578s ] mysql:host=127.0.0.1;port=3306;dbname=onenet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `is_deleted` = 0 LIMIT 0,20 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000285s ]
+---------------------------------------------------------------
+[ 2021-03-11T23:21:25+08:00 ] 47.102.154.221 GET onenet.zhinengyingjian.work/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000559s ] mysql:host=127.0.0.1;port=3306;dbname=onenet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000695s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2021-03-11T23:21:40+08:00 ] 47.103.70.119 GET onenet.zhinengyingjian.work/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000559s ] mysql:host=127.0.0.1;port=3306;dbname=onenet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000346s ]

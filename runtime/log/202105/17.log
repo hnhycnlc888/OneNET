@@ -1,0 +1,1367 @@
+---------------------------------------------------------------
+[ 2021-05-17T14:53:20+08:00 ] 120.237.147.92 GET onenet.zhinengyingjian.work/index.php
+[运行时间：0.017683s] [吞吐率：56.55req/s] [内存消耗：2,433.20kb] [文件加载：44]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'onenet.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://wiki.syhuo.com:8059/',
+  'cookie' => 'Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1617679458,1618993956,1619597056; td_cookie=267773961',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000227s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-17T14:53:20+08:00 ] 120.237.147.92 GET onenet.zhinengyingjian.work/index.php/admin.html
+[运行时间：0.018335s] [吞吐率：54.54req/s] [内存消耗：2,563.70kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'onenet.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wiki.syhuo.com:8059/',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1617679458,1618993956,1619597056; td_cookie=267773961',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-17T14:53:20+08:00 ] 120.237.147.92 GET onenet.zhinengyingjian.work/index.php/admin/login.html
+[运行时间：0.026603s] [吞吐率：37.59req/s] [内存消耗：3,594.57kb] [文件加载：52]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'onenet.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wiki.syhuo.com:8059/',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1617679458,1618993956,1619597056; td_cookie=267773961; s79ee3df2=4hj123elp4tnhqn9bbjbjo8rn1',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000229s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000282s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-17T14:53:31+08:00 ] 120.237.147.92 POST onenet.zhinengyingjian.work/index.php/admin/login.html?spm=
+[运行时间：0.050304s] [吞吐率：19.88req/s] [内存消耗：3,757.32kb] [文件加载：57]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'onenet.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://onenet.zhinengyingjian.work',
+  'connection' => 'keep-alive',
+  'referer' => 'http://onenet.zhinengyingjian.work/index.php/admin/login.html',
+  'cookie' => 'Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1618993956,1619597056,1621234401; td_cookie=267773961; s79ee3df2=4hj123elp4tnhqn9bbjbjo8rn1; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1621234401',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '49',
+)
+[ info ] [ PARAM ] array (
+  'spm' => '',
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000245s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-17T14:53:31+08:00 ] 120.237.147.92 GET onenet.zhinengyingjian.work/index.php/admin.html
+[运行时间：0.034029s] [吞吐率：29.39req/s] [内存消耗：3,852.09kb] [文件加载：58]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'onenet.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://onenet.zhinengyingjian.work/index.php/admin/login.html',
+  'cookie' => 'Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1618993956,1619597056,1621234401; td_cookie=267773961; s79ee3df2=4hj123elp4tnhqn9bbjbjo8rn1; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1621234401',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.001041s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/view/index.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000302s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-17T14:53:32+08:00 ] 120.237.147.92 GET onenet.zhinengyingjian.work/index.php/admin/onenetmsg/index.html?spm=m-92-94
+[运行时间：0.265308s] [吞吐率：3.77req/s] [内存消耗：3,980.41kb] [文件加载：62]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'onenetmsg',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'onenet.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'referer' => 'http://onenet.zhinengyingjian.work/index.php/admin.html',
+  'cookie' => 'menu-style=full; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1618993956,1619597056,1621234401; td_cookie=267773961; s79ee3df2=4hj123elp4tnhqn9bbjbjo8rn1; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1621234412',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-92-94',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.001022s ]
+[ info ] [ RUN ] app\admin\controller\Onenetmsg->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Onenetmsg.php ]
+[ info ] [ API_URL ] 'http://openapi.heclouds.com/application?action=QueryProductList&version=1&project_id=VZ8n3z'
+[ info ] [ API_HEADER ] array (
+  0 => 'authorization: version=2020-05-29&res=userid%2F223931&et=3242470624&method=sha1&sign=Na8b%2FjutMIe1M5Zw1r84sNklFu4%3D',
+)
+[ info ] [ API_PARAM ] array (
+  'action' => 'QueryProductList',
+  'version' => 1,
+  'project_id' => 'VZ8n3z',
+)
+[ info ] [ API_RESULT ] '{"data":{"list":[{"data_type":1,"desc":"","device_number":3,"name":"TPS508","network":"3,4,2","node_type":1,"product_id":"Y6bOd21O20","protocol":2,"type":1}],"meta":{"limit":10,"offset":0,"total":1}},"requestId":"0339d992dc534f95b1621bc6b237c1cb","success":true}'
+[ info ] [ API_HTTP_INFO ] array (
+  'url' => 'http://openapi.heclouds.com/application?action=QueryProductList&version=1&project_id=VZ8n3z',
+  'content_type' => 'application/json; charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 140,
+  'request_size' => 241,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.224886,
+  'namelookup_time' => 0.12457500000000001,
+  'connect_time' => 0.157973,
+  'pretransfer_time' => 0.15803500000000001,
+  'size_upload' => 0,
+  'size_download' => 262,
+  'speed_download' => 1165,
+  'speed_upload' => 0,
+  'download_content_length' => 262,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.22486100000000001,
+  'redirect_time' => 0,
+  'redirect_url' => '',
+  'primary_ip' => '183.230.102.116',
+  'certinfo' => 
+  array (
+  ),
+  'primary_port' => 80,
+  'local_ip' => '172.18.62.150',
+  'local_port' => 53739,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/view/onenetmsg.index.html [ array (
+  0 => 'classuri',
+  1 => 'product_ids',
+  2 => 'title',
+  3 => 'list',
+  4 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001497s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-17T15:38:02+08:00 ] 120.237.147.92 GET onenet.zhinengyingjian.work/index.php/admin.html
+[运行时间：0.034132s] [吞吐率：29.30req/s] [内存消耗：3,851.91kb] [文件加载：58]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'onenet.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'menu-style=full; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1618993956,1619597056,1621234401; td_cookie=267773961; s79ee3df2=4hj123elp4tnhqn9bbjbjo8rn1; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1621234412; rows=20',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.001034s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/view/index.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000315s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-17T15:38:03+08:00 ] 120.237.147.92 GET onenet.zhinengyingjian.work/index.php/admin/onenetmsg/index.html?spm=m-92-94
+[运行时间：0.189333s] [吞吐率：5.28req/s] [内存消耗：3,990.26kb] [文件加载：62]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'onenetmsg',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'onenet.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'referer' => 'http://onenet.zhinengyingjian.work/index.php/admin.html',
+  'cookie' => 'menu-style=full; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1618993956,1619597056,1621234401; td_cookie=267773961; s79ee3df2=4hj123elp4tnhqn9bbjbjo8rn1; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1621237083; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-92-94',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.001037s ]
+[ info ] [ RUN ] app\admin\controller\Onenetmsg->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Onenetmsg.php ]
+[ info ] [ API_URL ] 'http://openapi.heclouds.com/application?action=QueryProductList&version=1&project_id=VZ8n3z'
+[ info ] [ API_HEADER ] array (
+  0 => 'authorization: version=2020-05-29&res=userid%2F223931&et=3242475966&method=sha1&sign=kKba5sGidRZlWTgZMs03FM9f3mM%3D',
+)
+[ info ] [ API_PARAM ] array (
+  'action' => 'QueryProductList',
+  'version' => 1,
+  'project_id' => 'VZ8n3z',
+)
+[ info ] [ API_RESULT ] '{"data":{"list":[{"data_type":1,"desc":"","device_number":3,"name":"TPS508","network":"3,4,2","node_type":1,"product_id":"Y6bOd21O20","protocol":2,"type":1}],"meta":{"limit":10,"offset":0,"total":1}},"requestId":"5bab535011d644349a466634c7cac234","success":true}'
+[ info ] [ API_HTTP_INFO ] array (
+  'url' => 'http://openapi.heclouds.com/application?action=QueryProductList&version=1&project_id=VZ8n3z',
+  'content_type' => 'application/json; charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 140,
+  'request_size' => 239,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.155449,
+  'namelookup_time' => 0.060357000000000001,
+  'connect_time' => 0.091120999999999994,
+  'pretransfer_time' => 0.091155,
+  'size_upload' => 0,
+  'size_download' => 262,
+  'speed_download' => 1685,
+  'speed_upload' => 0,
+  'download_content_length' => 262,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.15542600000000001,
+  'redirect_time' => 0,
+  'redirect_url' => '',
+  'primary_ip' => '183.230.102.116',
+  'certinfo' => 
+  array (
+  ),
+  'primary_port' => 80,
+  'local_ip' => '172.18.62.150',
+  'local_port' => 54245,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/view/onenetmsg.index.html [ array (
+  0 => 'classuri',
+  1 => 'product_ids',
+  2 => 'title',
+  3 => 'list',
+  4 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001352s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-17T15:38:05+08:00 ] 120.237.147.92 GET onenet.zhinengyingjian.work/index.php/admin/onenetdevice/index.html?spm=m-92-96
+[运行时间：0.276815s] [吞吐率：3.61req/s] [内存消耗：3,783.19kb] [文件加载：58]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'onenetdevice',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'onenet.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'referer' => 'http://onenet.zhinengyingjian.work/index.php/admin.html',
+  'cookie' => 'menu-style=full; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1618993956,1619597056,1621234401; td_cookie=267773961; s79ee3df2=4hj123elp4tnhqn9bbjbjo8rn1; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1621237083; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-92-96',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.001034s ]
+[ info ] [ RUN ] app\admin\controller\Onenetdevice->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Onenetdevice.php ]
+[ info ] [ API_URL ] 'http://openapi.heclouds.com/application?action=QueryProductList&version=1&project_id=VZ8n3z'
+[ info ] [ API_HEADER ] array (
+  0 => 'authorization: version=2020-05-29&res=userid%2F223931&et=3242475970&method=sha1&sign=PoT00llzFXC1%2FOc4olwKMI5Flao%3D',
+)
+[ info ] [ API_PARAM ] array (
+  'action' => 'QueryProductList',
+  'version' => 1,
+  'project_id' => 'VZ8n3z',
+)
+[ info ] [ API_RESULT ] '{"data":{"list":[{"data_type":1,"desc":"","device_number":3,"name":"TPS508","network":"3,4,2","node_type":1,"product_id":"Y6bOd21O20","protocol":2,"type":1}],"meta":{"limit":10,"offset":0,"total":1}},"requestId":"1d3a88a464c740d2ad691da7baf0af2a","success":true}'
+[ info ] [ API_HTTP_INFO ] array (
+  'url' => 'http://openapi.heclouds.com/application?action=QueryProductList&version=1&project_id=VZ8n3z',
+  'content_type' => 'application/json; charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 140,
+  'request_size' => 241,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.16120300000000001,
+  'namelookup_time' => 0.060359000000000003,
+  'connect_time' => 0.094090999999999994,
+  'pretransfer_time' => 0.094127000000000002,
+  'size_upload' => 0,
+  'size_download' => 262,
+  'speed_download' => 1625,
+  'speed_upload' => 0,
+  'download_content_length' => 262,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.16118099999999999,
+  'redirect_time' => 0,
+  'redirect_url' => '',
+  'primary_ip' => '183.230.102.116',
+  'certinfo' => 
+  array (
+  ),
+  'primary_port' => 80,
+  'local_ip' => '172.18.62.150',
+  'local_port' => 54253,
+)
+[ info ] [ API_URL ] 'http://openapi.heclouds.com/application?action=QueryDeviceList&version=1&project_id=VZ8n3z&offset=0&limit=20'
+[ info ] [ API_HEADER ] array (
+  0 => 'authorization: version=2020-05-29&res=userid%2F223931&et=3242475970&method=sha1&sign=PoT00llzFXC1%2FOc4olwKMI5Flao%3D',
+)
+[ info ] [ API_PARAM ] array (
+  'action' => 'QueryDeviceList',
+  'version' => 1,
+  'project_id' => 'VZ8n3z',
+  'offset' => 0,
+  'limit' => 20,
+)
+[ info ] [ API_RESULT ] '{"data":{"list":[{"created_time":"2021-03-05T07:56:05.582Z","device_name":"1120508000400880","from":1,"last_time":"2021-03-11T09:23:58.632Z","lat":"23.027798","lon":"113.175402","node_type":1,"product_id":"Y6bOd21O20","product_name":"TPS508","status":3},{"created_time":"2021-03-01T02:44:37.980Z","device_name":"123456","from":1,"last_time":"2021-03-06T08:08:20.963Z","lat":"","lon":"","node_type":1,"product_id":"Y6bOd21O20","product_name":"TPS508","status":3},{"created_time":"2021-02-26T07:03:50.367Z","device_name":"A040508000300008","from":1,"last_time":"2021-04-20T07:11:12.749Z","lat":"23.027797","lon":"113.174927","node_type":1,"product_id":"Y6bOd21O20","product_name":"TPS508","status":3}],"meta":{"limit":20,"offset":0,"total":3}},"requestId":"1ffd1240375444289ab452eaabac8b50","success":true}'
+[ info ] [ API_HTTP_INFO ] array (
+  'url' => 'http://openapi.heclouds.com/application?action=QueryDeviceList&version=1&project_id=VZ8n3z&offset=0&limit=20',
+  'content_type' => 'application/json; charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 140,
+  'request_size' => 258,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.085412000000000002,
+  'namelookup_time' => 0.0041390000000000003,
+  'connect_time' => 0.033013000000000001,
+  'pretransfer_time' => 0.03304,
+  'size_upload' => 0,
+  'size_download' => 804,
+  'speed_download' => 9413,
+  'speed_upload' => 0,
+  'download_content_length' => 804,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.085398000000000002,
+  'redirect_time' => 0,
+  'redirect_url' => '',
+  'primary_ip' => '183.230.102.116',
+  'certinfo' => 
+  array (
+  ),
+  'primary_port' => 80,
+  'local_ip' => '172.18.62.150',
+  'local_port' => 54255,
+)
+[ info ] [ VIEW ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/view/onenetdevice.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'product_ids',
+  3 => 'page',
+  4 => 'list',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.007107s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-17T15:38:07+08:00 ] 120.237.147.92 GET onenet.zhinengyingjian.work/index.php/admin/onenetcmdlog/index.html?spm=m-92-97
+[运行时间：0.134080s] [吞吐率：7.46req/s] [内存消耗：3,992.25kb] [文件加载：62]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'onenetcmdlog',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'onenet.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'referer' => 'http://onenet.zhinengyingjian.work/index.php/admin.html',
+  'cookie' => 'menu-style=full; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1618993956,1619597056,1621234401; td_cookie=267773961; s79ee3df2=4hj123elp4tnhqn9bbjbjo8rn1; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1621237083; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-92-97',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.001077s ]
+[ info ] [ RUN ] app\admin\controller\Onenetcmdlog->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Onenetcmdlog.php ]
+[ info ] [ API_URL ] 'http://openapi.heclouds.com/application?action=QueryProductList&version=1&project_id=VZ8n3z'
+[ info ] [ API_HEADER ] array (
+  0 => 'authorization: version=2020-05-29&res=userid%2F223931&et=3242475974&method=sha1&sign=XVWk9MI7LdCbefS%2FKokwxmy%2BeFg%3D',
+)
+[ info ] [ API_PARAM ] array (
+  'action' => 'QueryProductList',
+  'version' => 1,
+  'project_id' => 'VZ8n3z',
+)
+[ info ] [ API_RESULT ] '{"data":{"list":[{"data_type":1,"desc":"","device_number":3,"name":"TPS508","network":"3,4,2","node_type":1,"product_id":"Y6bOd21O20","protocol":2,"type":1}],"meta":{"limit":10,"offset":0,"total":1}},"requestId":"21f77383bc2d41f0bd0394b8b415b8aa","success":true}'
+[ info ] [ API_HTTP_INFO ] array (
+  'url' => 'http://openapi.heclouds.com/application?action=QueryProductList&version=1&project_id=VZ8n3z',
+  'content_type' => 'application/json; charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 140,
+  'request_size' => 243,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.099609000000000003,
+  'namelookup_time' => 0.00415,
+  'connect_time' => 0.037649000000000002,
+  'pretransfer_time' => 0.037705000000000002,
+  'size_upload' => 0,
+  'size_download' => 262,
+  'speed_download' => 2630,
+  'speed_upload' => 0,
+  'download_content_length' => 262,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.099592,
+  'redirect_time' => 0,
+  'redirect_url' => '',
+  'primary_ip' => '183.230.102.116',
+  'certinfo' => 
+  array (
+  ),
+  'primary_port' => 80,
+  'local_ip' => '172.18.62.150',
+  'local_port' => 54261,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/view/onenetcmdlog.index.html [ array (
+  0 => 'classuri',
+  1 => 'product_ids',
+  2 => 'title',
+  3 => 'list',
+  4 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001394s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-17T15:38:28+08:00 ] 120.237.147.92 GET onenet.zhinengyingjian.work/index.php/admin/onenetdevice/index.html?spm=m-92-96
+[运行时间：0.282811s] [吞吐率：3.54req/s] [内存消耗：3,783.23kb] [文件加载：58]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'onenetdevice',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'onenet.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'referer' => 'http://onenet.zhinengyingjian.work/index.php/admin.html',
+  'cookie' => 'menu-style=full; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1618993956,1619597056,1621234401; td_cookie=267773961; s79ee3df2=4hj123elp4tnhqn9bbjbjo8rn1; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1621237083; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-92-96',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.001061s ]
+[ info ] [ RUN ] app\admin\controller\Onenetdevice->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Onenetdevice.php ]
+[ info ] [ API_URL ] 'http://openapi.heclouds.com/application?action=QueryProductList&version=1&project_id=VZ8n3z'
+[ info ] [ API_HEADER ] array (
+  0 => 'authorization: version=2020-05-29&res=userid%2F223931&et=3242476016&method=sha1&sign=lUivdn3vapoEz1QwYBtrFaJJup0%3D',
+)
+[ info ] [ API_PARAM ] array (
+  'action' => 'QueryProductList',
+  'version' => 1,
+  'project_id' => 'VZ8n3z',
+)
+[ info ] [ API_RESULT ] '{"data":{"list":[{"data_type":1,"desc":"","device_number":3,"name":"TPS508","network":"3,4,2","node_type":1,"product_id":"Y6bOd21O20","protocol":2,"type":1}],"meta":{"limit":10,"offset":0,"total":1}},"requestId":"beb59703a0e648868b9a633f4a241fb9","success":true}'
+[ info ] [ API_HTTP_INFO ] array (
+  'url' => 'http://openapi.heclouds.com/application?action=QueryProductList&version=1&project_id=VZ8n3z',
+  'content_type' => 'application/json; charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 140,
+  'request_size' => 239,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.15668399999999999,
+  'namelookup_time' => 0.060364000000000001,
+  'connect_time' => 0.093587000000000004,
+  'pretransfer_time' => 0.093625,
+  'size_upload' => 0,
+  'size_download' => 262,
+  'speed_download' => 1672,
+  'speed_upload' => 0,
+  'download_content_length' => 262,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.156663,
+  'redirect_time' => 0,
+  'redirect_url' => '',
+  'primary_ip' => '183.230.102.116',
+  'certinfo' => 
+  array (
+  ),
+  'primary_port' => 80,
+  'local_ip' => '172.18.62.150',
+  'local_port' => 54269,
+)
+[ info ] [ API_URL ] 'http://openapi.heclouds.com/application?action=QueryDeviceList&version=1&project_id=VZ8n3z&offset=0&limit=20'
+[ info ] [ API_HEADER ] array (
+  0 => 'authorization: version=2020-05-29&res=userid%2F223931&et=3242476016&method=sha1&sign=lUivdn3vapoEz1QwYBtrFaJJup0%3D',
+)
+[ info ] [ API_PARAM ] array (
+  'action' => 'QueryDeviceList',
+  'version' => 1,
+  'project_id' => 'VZ8n3z',
+  'offset' => 0,
+  'limit' => 20,
+)
+[ info ] [ API_RESULT ] '{"data":{"list":[{"created_time":"2021-03-05T07:56:05.582Z","device_name":"1120508000400880","from":1,"last_time":"2021-03-11T09:23:58.632Z","lat":"23.027798","lon":"113.175402","node_type":1,"product_id":"Y6bOd21O20","product_name":"TPS508","status":3},{"created_time":"2021-03-01T02:44:37.980Z","device_name":"123456","from":1,"last_time":"2021-03-06T08:08:20.963Z","lat":"","lon":"","node_type":1,"product_id":"Y6bOd21O20","product_name":"TPS508","status":3},{"created_time":"2021-02-26T07:03:50.367Z","device_name":"A040508000300008","from":1,"last_time":"2021-04-20T07:11:12.749Z","lat":"23.027797","lon":"113.174927","node_type":1,"product_id":"Y6bOd21O20","product_name":"TPS508","status":3}],"meta":{"limit":20,"offset":0,"total":3}},"requestId":"6d7534cdd1324571a9ad0e28a2b21a5b","success":true}'
+[ info ] [ API_HTTP_INFO ] array (
+  'url' => 'http://openapi.heclouds.com/application?action=QueryDeviceList&version=1&project_id=VZ8n3z&offset=0&limit=20',
+  'content_type' => 'application/json; charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 140,
+  'request_size' => 256,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.094704999999999998,
+  'namelookup_time' => 0.0041529999999999996,
+  'connect_time' => 0.037610999999999999,
+  'pretransfer_time' => 0.037647,
+  'size_upload' => 0,
+  'size_download' => 804,
+  'speed_download' => 8489,
+  'speed_upload' => 0,
+  'download_content_length' => 804,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.094687999999999994,
+  'redirect_time' => 0,
+  'redirect_url' => '',
+  'primary_ip' => '183.230.102.116',
+  'certinfo' => 
+  array (
+  ),
+  'primary_port' => 80,
+  'local_ip' => '172.18.62.150',
+  'local_port' => 54271,
+)
+[ info ] [ VIEW ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/view/onenetdevice.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'product_ids',
+  3 => 'page',
+  4 => 'list',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.007578s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-17T15:38:30+08:00 ] 120.237.147.92 GET onenet.zhinengyingjian.work/index.php/admin/onenetmsg/index.html?spm=m-92-94
+[运行时间：0.122334s] [吞吐率：8.17req/s] [内存消耗：3,990.31kb] [文件加载：62]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'onenetmsg',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'onenet.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'referer' => 'http://onenet.zhinengyingjian.work/index.php/admin.html',
+  'cookie' => 'menu-style=full; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1618993956,1619597056,1621234401; td_cookie=267773961; s79ee3df2=4hj123elp4tnhqn9bbjbjo8rn1; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1621237083; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-92-94',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.001044s ]
+[ info ] [ RUN ] app\admin\controller\Onenetmsg->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Onenetmsg.php ]
+[ info ] [ API_URL ] 'http://openapi.heclouds.com/application?action=QueryProductList&version=1&project_id=VZ8n3z'
+[ info ] [ API_HEADER ] array (
+  0 => 'authorization: version=2020-05-29&res=userid%2F223931&et=3242476020&method=sha1&sign=59KPArVEnyAlDiJ6PAfioFs34dE%3D',
+)
+[ info ] [ API_PARAM ] array (
+  'action' => 'QueryProductList',
+  'version' => 1,
+  'project_id' => 'VZ8n3z',
+)
+[ info ] [ API_RESULT ] '{"data":{"list":[{"data_type":1,"desc":"","device_number":3,"name":"TPS508","network":"3,4,2","node_type":1,"product_id":"Y6bOd21O20","protocol":2,"type":1}],"meta":{"limit":10,"offset":0,"total":1}},"requestId":"ed2a27d32ede41e495ab36507a394838","success":true}'
+[ info ] [ API_HTTP_INFO ] array (
+  'url' => 'http://openapi.heclouds.com/application?action=QueryProductList&version=1&project_id=VZ8n3z',
+  'content_type' => 'application/json; charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 140,
+  'request_size' => 239,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.088432999999999998,
+  'namelookup_time' => 0.0041489999999999999,
+  'connect_time' => 0.034204999999999999,
+  'pretransfer_time' => 0.034242000000000002,
+  'size_upload' => 0,
+  'size_download' => 262,
+  'speed_download' => 2962,
+  'speed_upload' => 0,
+  'download_content_length' => 262,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.088415999999999995,
+  'redirect_time' => 0,
+  'redirect_url' => '',
+  'primary_ip' => '183.230.102.116',
+  'certinfo' => 
+  array (
+  ),
+  'primary_port' => 80,
+  'local_ip' => '172.18.62.150',
+  'local_port' => 54277,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/view/onenetmsg.index.html [ array (
+  0 => 'classuri',
+  1 => 'product_ids',
+  2 => 'title',
+  3 => 'list',
+  4 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001418s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-17T15:55:02+08:00 ] 120.237.147.92 GET onenet.zhinengyingjian.work/index.php/admin.html
+[运行时间：0.034543s] [吞吐率：28.95req/s] [内存消耗：3,851.91kb] [文件加载：58]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'onenet.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'menu-style=full; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1618993956,1619597056,1621234401; td_cookie=267773961; s79ee3df2=4hj123elp4tnhqn9bbjbjo8rn1; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1621237083; rows=20',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.001063s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/view/index.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000308s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-17T15:55:02+08:00 ] 120.237.147.92 GET onenet.zhinengyingjian.work/index.php/admin/onenetmsg/index.html?spm=m-92-94
+[运行时间：0.256634s] [吞吐率：3.90req/s] [内存消耗：3,990.34kb] [文件加载：62]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'onenetmsg',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'onenet.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'referer' => 'http://onenet.zhinengyingjian.work/index.php/admin.html',
+  'cookie' => 'menu-style=full; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1618993956,1619597056,1621234401; td_cookie=267773961; s79ee3df2=4hj123elp4tnhqn9bbjbjo8rn1; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1621238103; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-92-94',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.001015s ]
+[ info ] [ RUN ] app\admin\controller\Onenetmsg->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Onenetmsg.php ]
+[ info ] [ API_URL ] 'http://openapi.heclouds.com/application?action=QueryProductList&version=1&project_id=VZ8n3z'
+[ info ] [ API_HEADER ] array (
+  0 => 'authorization: version=2020-05-29&res=userid%2F223931&et=3242478004&method=sha1&sign=80FDEs5g2iME0IzFRaKEeNPvmUc%3D',
+)
+[ info ] [ API_PARAM ] array (
+  'action' => 'QueryProductList',
+  'version' => 1,
+  'project_id' => 'VZ8n3z',
+)
+[ info ] [ API_RESULT ] '{"data":{"list":[{"data_type":1,"desc":"","device_number":3,"name":"TPS508","network":"3,4,2","node_type":1,"product_id":"Y6bOd21O20","protocol":2,"type":1}],"meta":{"limit":10,"offset":0,"total":1}},"requestId":"f5d44c0a5b874dd0a5852dc0d7d0f428","success":true}'
+[ info ] [ API_HTTP_INFO ] array (
+  'url' => 'http://openapi.heclouds.com/application?action=QueryProductList&version=1&project_id=VZ8n3z',
+  'content_type' => 'application/json; charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 140,
+  'request_size' => 239,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.22355100000000006,
+  'namelookup_time' => 0.124443,
+  'connect_time' => 0.15509600000000001,
+  'pretransfer_time' => 0.15513399999999999,
+  'size_upload' => 0,
+  'size_download' => 262,
+  'speed_download' => 1171,
+  'speed_upload' => 0,
+  'download_content_length' => 262,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.22353299999999998,
+  'redirect_time' => 0,
+  'redirect_url' => '',
+  'primary_ip' => '183.230.102.116',
+  'certinfo' => 
+  array (
+  ),
+  'primary_port' => 80,
+  'local_ip' => '172.18.62.150',
+  'local_port' => 54511,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/view/onenetmsg.index.html [ array (
+  0 => 'classuri',
+  1 => 'product_ids',
+  2 => 'title',
+  3 => 'list',
+  4 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001353s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-17T16:20:37+08:00 ] 120.237.147.92 GET onenet.zhinengyingjian.work/index.php/admin.html
+[运行时间：0.035199s] [吞吐率：28.41req/s] [内存消耗：3,851.91kb] [文件加载：58]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'onenet.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'menu-style=full; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1618993956,1619597056,1621234401; td_cookie=267773961; s79ee3df2=4hj123elp4tnhqn9bbjbjo8rn1; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1621238103; rows=20',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.001067s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/view/index.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000322s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-17T16:20:38+08:00 ] 120.237.147.92 GET onenet.zhinengyingjian.work/index.php/admin/onenetmsg/index.html?spm=m-92-94
+[运行时间：0.195535s] [吞吐率：5.11req/s] [内存消耗：3,990.34kb] [文件加载：62]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'onenetmsg',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'onenet.zhinengyingjian.work',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'referer' => 'http://onenet.zhinengyingjian.work/index.php/admin.html',
+  'cookie' => 'menu-style=full; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1618993956,1619597056,1621234401; td_cookie=267773961; s79ee3df2=4hj123elp4tnhqn9bbjbjo8rn1; Hm_lpvt_aa2f9869e9b578122e4692de2bd9f80f=1621239638; rows=20',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-92-94',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.001012s ]
+[ info ] [ RUN ] app\admin\controller\Onenetmsg->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Onenetmsg.php ]
+[ info ] [ API_URL ] 'http://openapi.heclouds.com/application?action=QueryProductList&version=1&project_id=VZ8n3z'
+[ info ] [ API_HEADER ] array (
+  0 => 'authorization: version=2020-05-29&res=userid%2F223931&et=3242481076&method=sha1&sign=f2kV3TJuRAjB7MIF5CEPzT8gJRY%3D',
+)
+[ info ] [ API_PARAM ] array (
+  'action' => 'QueryProductList',
+  'version' => 1,
+  'project_id' => 'VZ8n3z',
+)
+[ info ] [ API_RESULT ] '{"data":{"list":[{"data_type":1,"desc":"","device_number":3,"name":"TPS508","network":"3,4,2","node_type":1,"product_id":"Y6bOd21O20","protocol":2,"type":1}],"meta":{"limit":10,"offset":0,"total":1}},"requestId":"f58df7b4aa6e493a9864802bf3e2cbe0","success":true}'
+[ info ] [ API_HTTP_INFO ] array (
+  'url' => 'http://openapi.heclouds.com/application?action=QueryProductList&version=1&project_id=VZ8n3z',
+  'content_type' => 'application/json; charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 140,
+  'request_size' => 239,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.162384,
+  'namelookup_time' => 0.060365000000000002,
+  'connect_time' => 0.089760999999999994,
+  'pretransfer_time' => 0.089801000000000006,
+  'size_upload' => 0,
+  'size_download' => 262,
+  'speed_download' => 1613,
+  'speed_upload' => 0,
+  'download_content_length' => 262,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.16236600000000001,
+  'redirect_time' => 0,
+  'redirect_url' => '',
+  'primary_ip' => '183.230.102.116',
+  'certinfo' => 
+  array (
+  ),
+  'primary_port' => 80,
+  'local_ip' => '172.18.62.150',
+  'local_port' => 54799,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/view/onenetmsg.index.html [ array (
+  0 => 'classuri',
+  1 => 'product_ids',
+  2 => 'title',
+  3 => 'list',
+  4 => 'page',
+) ]
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.001425s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-17T16:44:33+08:00 ] 47.92.124.187 GET onenet.zhinengyingjian.work/
+[运行时间：0.017951s] [吞吐率：55.71req/s] [内存消耗：2,431.35kb] [文件加载：44]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000227s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-17T16:44:33+08:00 ] 47.92.124.187 GET onenet.zhinengyingjian.work/admin.html
+[运行时间：0.019207s] [吞吐率：52.06req/s] [内存消耗：2,561.66kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-17T16:44:33+08:00 ] 47.92.124.187 GET onenet.zhinengyingjian.work/admin/login.html
+[运行时间：0.026971s] [吞吐率：37.08req/s] [内存消耗：3,593.18kb] [文件加载：52]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000261s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000282s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-17T16:54:52+08:00 ] 101.132.159.74 GET onenet.zhinengyingjian.work/
+[运行时间：0.018370s] [吞吐率：54.44req/s] [内存消耗：2,431.35kb] [文件加载：44]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000248s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-17T16:54:52+08:00 ] 101.132.159.74 GET onenet.zhinengyingjian.work/admin.html
+[运行时间：0.018904s] [吞吐率：52.90req/s] [内存消耗：2,561.66kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-17T16:54:52+08:00 ] 101.132.159.74 GET onenet.zhinengyingjian.work/admin/login.html
+[运行时间：0.027481s] [吞吐率：36.39req/s] [内存消耗：3,593.18kb] [文件加载：52]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000252s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000302s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-17T17:36:59+08:00 ] 47.98.105.54 GET onenet.zhinengyingjian.work/
+[运行时间：0.018504s] [吞吐率：54.04req/s] [内存消耗：2,431.35kb] [文件加载：44]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000256s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-17T17:36:59+08:00 ] 47.98.105.54 GET onenet.zhinengyingjian.work/admin.html
+[运行时间：0.018507s] [吞吐率：54.03req/s] [内存消耗：2,561.66kb] [文件加载：46]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-17T17:36:59+08:00 ] 47.98.105.54 GET onenet.zhinengyingjian.work/admin/login.html
+[运行时间：0.026298s] [吞吐率：38.03req/s] [内存消耗：3,593.18kb] [文件加载：52]
+[ info ] [ LANG ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+  'host' => 'onenet.zhinengyingjian.work',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000229s ]
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/view/login.index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run hook\FilterView @view_filter [ RunTime:0.000300s ]
+[ info ] [ LOG ] INIT File

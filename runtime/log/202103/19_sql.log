@@ -1,0 +1,25 @@
+---------------------------------------------------------------
+[ 2021-03-19T04:47:43+08:00 ] 106.14.138.42 GET onenet.zhinengyingjian.work/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000553s ] mysql:host=127.0.0.1;port=3306;dbname=onenet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000867s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000359s ]
+---------------------------------------------------------------
+[ 2021-03-19T11:43:55+08:00 ] 59.36.119.227 GET onenet.zhinengyingjian.work/index.php/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000563s ] mysql:host=127.0.0.1;port=3306;dbname=onenet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000801s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000347s ]
+---------------------------------------------------------------
+[ 2021-03-19T12:43:16+08:00 ] 47.98.103.147 GET onenet.zhinengyingjian.work/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000531s ] mysql:host=127.0.0.1;port=3306;dbname=onenet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000796s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000337s ]
+---------------------------------------------------------------
+[ 2021-03-19T16:59:15+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/index.php/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000556s ] mysql:host=127.0.0.1;port=3306;dbname=onenet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000356s ]
+---------------------------------------------------------------
+[ 2021-03-19T18:45:27+08:00 ] 101.132.73.61 GET onenet.zhinengyingjian.work/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000548s ] mysql:host=127.0.0.1;port=3306;dbname=onenet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000675s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000379s ]

@@ -1,0 +1,54 @@
+---------------------------------------------------------------
+[ 2021-03-08T11:59:41+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/index.php/admin/onenetdevice/debug.html?spm=m-92-98
+[ error ] [1]Class 'service\PageService' not found[/www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Onenetdevice.php:80]
+---------------------------------------------------------------
+[ 2021-03-08T12:00:09+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/index.php/admin/onenetdevice/debug.html?spm=m-92-98
+[ error ] [1]Class 'service\PageService' not found[/www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Onenetdevice.php:80]
+---------------------------------------------------------------
+[ 2021-03-08T15:23:29+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/index.php/admin/onenetdevice/debug.html?spm=m-92-98
+[ error ] [8]未定义数组索引: product_id[/www/admin/onenet.zhinengyingjian.work_80/wwwroot/extend/service/OnenetService.php:77]
+---------------------------------------------------------------
+[ 2021-03-08T15:23:45+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/index.php/admin/onenetdevice/debug.html?spm=m-92-98
+[ error ] [8]未定义数组索引: product_id[/www/admin/onenet.zhinengyingjian.work_80/wwwroot/extend/service/OnenetService.php:77]
+---------------------------------------------------------------
+[ 2021-03-08T15:24:39+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/index.php/admin/onenetdevice/debug.html?spm=m-92-98
+[ error ] [8]未定义数组索引: product_id[/www/admin/onenet.zhinengyingjian.work_80/wwwroot/extend/service/OnenetService.php:77]
+---------------------------------------------------------------
+[ 2021-03-08T15:35:15+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/index.php/admin/onenetdevice/debug.html?spm=m-92-98
+[ error ] [8]未定义数组索引: id[/www/admin/onenet.zhinengyingjian.work_80/wwwroot/runtime/temp/15019813a3561baabfe9b9e8eaa79c24.php:94]
+---------------------------------------------------------------
+[ 2021-03-08T15:36:33+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/index.php/admin/onenetdevice/debug.html?spm=m-92-98
+[ error ] [8]未定义数组索引: id[/www/admin/onenet.zhinengyingjian.work_80/wwwroot/runtime/temp/15019813a3561baabfe9b9e8eaa79c24.php:94]
+---------------------------------------------------------------
+[ 2021-03-08T15:36:39+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/index.php/admin/onenetdevice/debug.html?spm=m-92-98
+[ error ] [8]未定义数组索引: id[/www/admin/onenet.zhinengyingjian.work_80/wwwroot/runtime/temp/15019813a3561baabfe9b9e8eaa79c24.php:94]
+---------------------------------------------------------------
+[ 2021-03-08T17:27:31+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/index.php/admin/onenetdevice/index.html?spm=m-92-96
+[ error ] [2]file_get_contents(/www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/view/onenetdevice.index.html): failed to open stream: Permission denied[/www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/library/think/Template.php:181]
+---------------------------------------------------------------
+[ 2021-03-08T17:27:38+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/index.php/admin/onenetdevice/index.html?spm=m-92-96
+[ error ] [2]file_get_contents(/www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/view/onenetdevice.index.html): failed to open stream: Permission denied[/www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/library/think/Template.php:181]
+---------------------------------------------------------------
+[ 2021-03-08T17:27:46+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/index.php/admin/onenetdevice/index.html?spm=m-92-96
+[ error ] [2]file_get_contents(/www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/view/onenetdevice.index.html): failed to open stream: Permission denied[/www/admin/onenet.zhinengyingjian.work_80/wwwroot/thinkphp/library/think/Template.php:181]
+---------------------------------------------------------------
+[ 2021-03-08T17:50:51+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/index.php/admin/onenetdevice/index.html?spm=m-92-96
+[ error ] [8]未定义数组索引: id[/www/admin/onenet.zhinengyingjian.work_80/wwwroot/runtime/temp/548f34d99cd9cf977d2f678b6e7a8706.php:93]
+---------------------------------------------------------------
+[ 2021-03-08T17:50:54+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/index.php/admin/onenetdevice/index.html?spm=m-92-96
+[ error ] [8]未定义数组索引: id[/www/admin/onenet.zhinengyingjian.work_80/wwwroot/runtime/temp/548f34d99cd9cf977d2f678b6e7a8706.php:93]
+---------------------------------------------------------------
+[ 2021-03-08T17:51:06+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/index.php/admin/onenetdevice/index.html?spm=m-92-96
+[ error ] [8]未定义数组索引: id[/www/admin/onenet.zhinengyingjian.work_80/wwwroot/runtime/temp/548f34d99cd9cf977d2f678b6e7a8706.php:93]
+---------------------------------------------------------------
+[ 2021-03-08T21:56:58+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/admin/onenetdevice/index.html?spm=m-92-96
+[ error ] [8]Array to string conversion[/www/admin/onenet.zhinengyingjian.work_80/wwwroot/runtime/temp/548f34d99cd9cf977d2f678b6e7a8706.php:47]
+---------------------------------------------------------------
+[ 2021-03-08T21:57:04+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/admin/onenetdevice/index.html?spm=m-92-96
+[ error ] [8]Array to string conversion[/www/admin/onenet.zhinengyingjian.work_80/wwwroot/runtime/temp/548f34d99cd9cf977d2f678b6e7a8706.php:47]
+---------------------------------------------------------------
+[ 2021-03-08T21:58:58+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/admin/onenetdevice/index.html?spm=m-92-96
+[ error ] [8]Array to string conversion[/www/admin/onenet.zhinengyingjian.work_80/wwwroot/runtime/temp/548f34d99cd9cf977d2f678b6e7a8706.php:47]
+---------------------------------------------------------------
+[ 2021-03-08T22:02:32+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/admin/onenetdevice/index.html?spm=m-92-96
+[ error ] [4]语法错误: unexpected '}'[/www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Onenetdevice.php:56]

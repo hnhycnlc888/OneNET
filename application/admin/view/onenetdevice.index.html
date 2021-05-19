@@ -1,0 +1,112 @@
+{extend name='extra@admin/content'}
+
+{block name="button"}
+<div class="nowrap pull-right" style="margin-top:10px">
+	<!---暂不支持设备批量重启-->
+    <!--<button data-update data-field='reboot' data-action='{:url("$classuri/reboot")}'
+            class='layui-btn layui-btn-small layui-btn-danger'> 设备重启
+    </button>-->
+	<!--<button data-load="{:url('sync')}" class='layui-btn layui-btn-small'> 同步设备 </button>-->
+</div>
+{/block}
+
+{block name="content"}
+
+<!-- 表单搜索 开始 -->
+<form class="animated form-search" action="__SELF__" onsubmit="return false" method="get">
+
+    <div class="row">
+        <div class="col-xs-3">
+            <div class="form-group">
+                <input type="text" name="project_id" value="{$Think.get.project_id|default=''}" placeholder="项目id" class="input-sm form-control">
+            </div>
+        </div>
+
+        <div class="col-xs-3">
+            <div class="form-group">
+                <!--<input type="text" name="product_id" value="{$Think.get.product_id|default=''}" placeholder="产品id" class="input-sm form-control">-->
+                <select name='product_id' class='input-sm form-control'>
+                    <option value=''> - 产品id - </option>
+                    {foreach $product_ids as $product_id}
+                    {if $product_id===$Think.get.product_id}
+                    <option selected="selected" value='{$product_id}'>{$product_id}</option>
+                    {else}
+                    <option value='{$product_id}'>{$product_id}</option>
+                    {/if}
+                    {/foreach}
+                </select>
+            </div>
+        </div>
+
+        <div class="col-xs-3">
+            <div class="form-group">
+                <input type="text" name="device_name" value="{$Think.get.device_name|default=''}" placeholder="设备名称" class="input-sm form-control">
+            </div>
+        </div>
+
+        <div class="col-xs-1">
+            <div class="form-group">
+                <button type="submit" class="btn btn-sm btn-white"><i class="fa fa-search"></i> 搜索</button>
+            </div>
+        </div>
+    </div>
+</form>
+<!-- 表单搜索 结束 -->
+
+<form onsubmit="return false;" data-auto="" method="POST">
+    <input type="hidden" value="resort" name="action"/>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <!--<th class='list-table-check-td'>
+                    <input data-none-auto="" data-check-target='.list-check-box' type='checkbox'/>
+                </th>-->
+                <th class='text-left'>项目id</th>
+                <!--<th class='text-left'>项目名称</th>-->
+                <th class='text-left'>产品id</th>
+                <th class='text-left'>产品名称</th>
+                <th class='text-left'>设备名称</th>
+                <th class='text-left'>设备状态</th>
+                <th class='text-left'>纬度</th>
+                <th class='text-left'>经度</th>
+                <th class='text-left'>创建时间</th>
+                <th class='text-right'>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            {foreach $list as $key=>$vo}
+            <tr>
+				<!-- data-update="{vo.id}" {vo.id}从数据库根据id获取记录详情-->
+                <!--<td class='list-table-check-td'>
+                    <input class="list-check-box" value='{$vo.device_name}' type='checkbox'/>
+                </td>-->
+                <td class='text-left'>{$vo.project_id|default="<span style='color:#ccc'>无</span>"}</td>
+                <!--<td class='text-left'>{$vo.project_name|default="<span style='color:#ccc'>无</span>"}</td>-->
+                <td class='text-left'>{$vo.product_id|default="<span style='color:#ccc'>无</span>"}</td>
+                <td class='text-left'>{$vo.product_name|default="<span style='color:#ccc'>无</span>"}</td>
+                <td class='text-left'>{$vo.device_name|default="<span style='color:#ccc'>无</span>"}</td>
+				{if $vo.status==0}
+					<td class='text-left'> <span style='color:#ccc'>无</span> </td>
+				{elseif $vo.status==1}
+					<td class='text-left'> <span>未激活</span> </td>
+				{elseif $vo.status==2}
+					<td class='text-left'> <span>在线</span> </td>
+				{elseif $vo.status==3}
+					<td class='text-left'> <span>离线</span> </td>
+				{/if}
+                <td class='text-left'>{$vo.lat|default="<span style='color:#ccc'>无</span>"}</td>
+                <td class='text-left'>{$vo.lon|default="<span style='color:#ccc'>无</span>"}</td>
+                <td class='text-left nowrap'>{$vo.created_time|default="<span style='color:#ccc'>无</span>"}</td>
+                <td class='text-right nowrap'>
+                    <span class="text-explode">|</span>
+					<!-- data-update="{vo.id}" {vo.id}从数据库根据id获取记录详情-->
+                    <a data-request="onenet" data-project_id="{$vo.project_id}" data-product_id={$vo.product_id} data-device_name={$vo.device_name} data-operate='reboot' data-action='{:url("$classuri/reboot")}'
+                       href="javascript:void(0)">重启</a>
+                </td>
+            </tr>
+            {/foreach}
+        </tbody>
+    </table>
+    {if isset($page)}<p>{$page}</p>{/if}
+</form>
+{/block}

@@ -1,0 +1,6 @@
+---------------------------------------------------------------
+[ 2021-03-15T16:59:01+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/index/index/test.html
+[ error ] [2]file_get_contents(citys.json): failed to open stream: No such file or directory[/www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/index/controller/Index.php:44]
+---------------------------------------------------------------
+[ 2021-03-15T16:59:22+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/index/index/wuliu.html
+[ error ] [8]Undefined property: stdClass::$auto[/www/admin/onenet.zhinengyingjian.work_80/wwwroot/extend/service/ToolsService.php:170]

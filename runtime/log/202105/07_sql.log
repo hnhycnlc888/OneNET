@@ -1,0 +1,5 @@
+---------------------------------------------------------------
+[ 2021-05-07T10:38:23+08:00 ] 101.132.113.224 GET onenet.zhinengyingjian.work/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000525s ] mysql:host=127.0.0.1;port=3306;dbname=onenet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000859s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000369s ]

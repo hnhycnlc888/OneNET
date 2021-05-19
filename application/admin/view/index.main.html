@@ -1,0 +1,126 @@
+{extend name='extra@admin/content'}
+
+{block name="content"}
+<div class="row">
+    <div class="col-lg-6">
+        <table class="layui-box layui-table" lay-even lay-skin="line">
+            <colgroup>
+                <col width="40%">
+                <col>
+            </colgroup>
+            <thead>
+                <tr>
+                    <th class="text-center" colspan="2">系统信息</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>产品版本</td>
+                    <td>{:sysconf('app_version')}</td>
+                </tr>
+                <tr>
+                    <td>ThinkPHP 版本</td>
+                    <td>{$Think.const.THINK_VERSION}</td>
+                </tr>
+                <tr>
+                    <td>服务器操作系统</td>
+                    <td>{:php_uname('s')}</td>
+                </tr>
+                <tr>
+                    <td>WEB运行环境</td>
+                    <td>{:php_sapi_name()}</td>
+                </tr>
+                <!--<tr>
+                    <td>MySQL数据库版本</td>
+                    <td>{$mysql_ver}</td>
+                </tr>
+                <tr>
+                    <td>运行PHP版本</td>
+                    <td>{:phpversion()}</td>
+                </tr>
+                <tr>
+                    <td>上传大小限制</td>
+                    <td>{:ini_get('upload_max_filesize')}</td>
+                </tr>
+                <tr>
+                    <td>POST大小限制</td>
+                    <td>{:ini_get('post_max_size')}</td>
+                </tr>-->
+            </tbody>
+        </table>
+    </div>
+    <div class="col-lg-6">
+        <table class="layui-box layui-table" lay-even lay-skin="line">
+            <colgroup>
+                <col width="40%">
+                <col>
+            </colgroup>
+            <thead>
+                <tr>
+                    <th class="text-center" colspan="2">产品团队</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>产品名称</td>
+                    <td>Telpo后台管理框架</td>
+                </tr>
+                <tr>
+                    <td>产品研发团队</td>
+                    <td>广东天波信息技术股份有限公司 -> 智能硬件事业部 -> 软件室</td>
+                </tr>
+                <!--<tr>
+                    <td>产品体验</td>
+                    <td>
+                        <a target="_blank" href="http://onenet.zhinengyingjian.work/index.php">
+                            http://onenet.zhinengyingjian.work/index.php
+                        </a>
+                    </td>
+                </tr>-->
+                <!--<tr>
+                    <td>官方QQ群</td>
+                    <td>
+                        <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=ae25cf789dafbef62e50a980ffc31242f150bc61a61164458216dd98c411832a">
+                            <img src="//pub.idqqimg.com/wpa/images/group.png" style="height:18px;width:auto" alt="PHP微信开发群 (SDK)">
+                        </a>
+                    </td>
+                </tr>-->
+                <!--<tr>
+                    <td>BUG反馈</td>
+                    <td>
+						BUG反馈
+                    </td>
+                </tr>-->
+                <tr>
+                    <td>项目地址</td>
+                    <td>
+                        <a target="_blank" href="https://onenet.zhinengyingjian.work/index.php">
+                            https://onenet.zhinengyingjian.work/index.php
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>公司官网</td>
+                    <td>
+                        <a target="_blank" href="http://www.telpo.com/">
+                            http://www.telpo.com/
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>公司地址</td>
+                    <td>
+                        广东省佛山市南海区桂城街道深海路17号瀚天科技城A区5号楼五楼
+                    </td>
+                </tr>
+                <tr>
+                    <td>联系电话</td>
+                    <td>
+                        0757-86337898
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+{/block}

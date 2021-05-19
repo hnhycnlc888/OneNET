@@ -1,0 +1,3 @@
+---------------------------------------------------------------
+[ 2021-03-09T18:42:07+08:00 ] 120.237.147.91 GET onenet.zhinengyingjian.work/admin/onenetmsg/index.html?spm=m-92-94
+[ error ] [4]语法错误: unexpected '$get' (T_VARIABLE)[/www/admin/onenet.zhinengyingjian.work_80/wwwroot/application/admin/controller/Onenetmsg.php:47]

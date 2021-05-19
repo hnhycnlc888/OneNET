@@ -1,0 +1,15 @@
+---------------------------------------------------------------
+[ 2021-04-20T15:43:43+08:00 ] 47.102.142.36 GET onenet.zhinengyingjian.work/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000569s ] mysql:host=127.0.0.1;port=3306;dbname=onenet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000870s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000382s ]
+---------------------------------------------------------------
+[ 2021-04-20T15:52:09+08:00 ] 47.101.58.149 GET onenet.zhinengyingjian.work/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000522s ] mysql:host=127.0.0.1;port=3306;dbname=onenet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000362s ]
+---------------------------------------------------------------
+[ 2021-04-20T22:45:20+08:00 ] 47.101.60.78 GET onenet.zhinengyingjian.work/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000593s ] mysql:host=127.0.0.1;port=3306;dbname=onenet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000379s ]
